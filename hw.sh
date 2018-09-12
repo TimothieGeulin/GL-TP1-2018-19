@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hihi"
+echo "Theodore, ta maman met des talons haut (pffffrrrt)"
