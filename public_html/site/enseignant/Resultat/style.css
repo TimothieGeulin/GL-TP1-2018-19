@@ -1,0 +1,71 @@
+.haut{
+    background-color: #1094d5;
+    padding: 20px;
+}
+
+.footer {
+    position: absolute;
+    background-color: #1094d5;
+    padding-top: 30px;
+    width: 100%;
+     font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+     font-size: 17px;
+     color: #fff;
+     margin-right: 2%;
+     margin-bottom: 5px;
+}
+
+.encadrer{
+      width:50%;
+      margin:50px auto;
+      border-radius:10px;
+      border:2px solid #009;
+      padding:10px 40px 25px;
+      font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+
+input[type="text"]{
+	display: none; 
+}
+
+p{
+    font-size:25px;
+}
+
+input[type="submit"]{
+
+    width:30%;
+    color:#fff;
+    background-color:#2ECCFA;
+    border:2px solid #06F;
+    padding:20px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+}
+input[type="button"]{
+
+    width:30%;
+    color:#fff;
+    background-color:#2ECCFA;
+    border:2px solid #06F;
+    padding:20px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+}
+
+#envoyer{
+	margin-top: 5%;
+	width:30%;
+    background-color:#2ECCFA;
+    border:2px solid #06F;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+}

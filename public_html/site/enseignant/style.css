@@ -1,0 +1,218 @@
+
+.haut{
+    background-color: #1094d5;
+    padding-top: 20px;
+    margin : 0;
+    width: 100%;
+}
+
+.footer {
+  position: absolute;
+  background-color: #1094d5;
+  padding-top: 25px;
+  width: 99.5%;
+  font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 17px;
+  color: #fff;
+  margin-bottom: 2px;
+  margin-top: 5%;
+}
+
+
+
+#test {
+	text-align: center;
+	font-family: Arial;
+	
+}
+
+.idleField{
+
+    width:25%;
+    background-color:#00FF00;
+    color:#fff;
+    border:2px solid #06F;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+}
+
+.idle{
+
+    width:25%;
+    color:#fff;
+    border:2px solid #06F;
+    padding:10px;
+    font-size:40px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+}
+
+input[type="file"]{
+      width:30%;
+      background-color:#2ECCFA;
+      color:#fff;
+      border:2px solid #06F;
+      padding:10px;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:5px;
+      margin-bottom:15px;
+      text-align: center; 
+}
+
+body{
+	
+	background-size: 200px, 200px;
+}
+
+#section{
+	max-width:1400px;height:auto;clear:both
+}
+
+
+.login{
+      width:35%;
+      margin:50px auto;
+      font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+      border-radius:10px;
+      border:2px solid #ccc;
+      padding:10px 40px 25px;
+      float: left;
+      margin-left: 2%;
+      margin-top: -2%;
+}
+
+.login3{
+      width:80%;
+      margin:50px auto;
+      font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+      border-radius:10px;
+      border:2px solid #ccc;
+      padding:10px 40px 25px;
+      margin-top: -2%;
+}
+
+.login2{
+
+      width:35%;
+      margin:50px auto;
+      font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+      border-radius:10px;
+      border:2px solid #ccc;
+      padding:10px 40px 25px;
+      float: right;
+      margin-right: 2%;
+      margin-top: -2%;
+}
+
+.login0{
+
+      width:40%;
+      margin:50px auto;
+      font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+      border-radius:10px;
+      border:2px solid #ccc;
+      padding:10px 40px 25px;
+      margin-right: 2%;
+      margin-top: -2%;
+}
+
+.encadrer{
+      width:30%;
+      margin:50px auto;
+      border-radius:10px;
+      border:2px solid #009;
+      padding:10px 40px 25px;
+      font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+input[type="password"]{
+    width:40%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    padding-left:5px;
+    font-size:16px;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; 
+    text-align: center;
+}
+
+input[type="text"]{
+    width:40%;
+    padding:10px;
+    margin-top:8px;
+    border:1px solid #ccc;
+    padding-left:5px;
+    font-size:16px;
+    font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; 
+    text-align: center;
+
+}
+
+input[type="submit"]{
+    width:25%;
+    border:2px solid #06F;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+    margin-left: -7%;
+    margin : auto;
+}
+.envoyer{
+    width:30%;
+    background-color:#2ECCFA;
+    color:#fff;
+    border:2px solid #06F;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+    margin-left: -7%;
+    margin : auto;
+}
+
+.focusField{
+    width:30%;
+    background-color:#2ECCFA;
+    color:#fff;
+    border:2px solid #06F;
+    padding:10px;
+    font-size:20px;
+    cursor:pointer;
+    border-radius:5px;
+    margin-bottom:15px; 
+}
+
+input[type="number"]{
+      width:30%;
+      background-color:#2ECCFA;
+      color:#fff;
+      border:2px solid #06F;
+      padding:10px;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:5px;
+      margin-bottom:15px;
+      text-align: center; 
+}
+
+.button{
+      width:100%;
+      background-color:#2ECCFA;
+      color:#fff;
+      border:2px solid #06F;
+      padding:10px;
+      font-size:20px;
+      cursor:pointer;
+      border-radius:5px;
+      margin-bottom:15px;
+      text-align: center; 
+      margin-top: 3%;
+}

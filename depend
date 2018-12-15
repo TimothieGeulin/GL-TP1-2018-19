@@ -1,3 +1,0 @@
-data_read.o: data_read.c data_read.h test_option.h
-test_option.o: test_option.c test_option.h data_read.h
-test_read.o: test_read.c
