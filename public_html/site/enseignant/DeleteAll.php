@@ -1,4 +1,4 @@
-
+<!-- Cette partie execute des requete SQL pour supprimmer toutes les tables de la base de donnée -->
 <?php
     $servername = "$_SERVER[dbHost]";
     $username = "$_SERVER[dbLogin]";
@@ -20,6 +20,7 @@
     $nbOption = ($test[0])/2;
 
     for ($i=0; $i < $nbOption; $i++) { 
+        // Pour chaque i on supprimme BDetui et DataOptionsi
         $sql1 = "DROP TABLE ".$username.".DataOptions".$i;
         $sql2 = "DROP TABLE ".$username.".BDetu".$i;
         if (mysqli_query($conn, $sql1)) {

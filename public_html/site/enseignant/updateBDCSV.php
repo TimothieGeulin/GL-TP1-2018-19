@@ -1,3 +1,5 @@
+<!-- Dans cette partie on met a jour les informations concernant les etudiants dans les BD grace aux informations presentes dans le CSV -->
+
 <?php
 
 $servername = "$_SERVER[dbHost]";

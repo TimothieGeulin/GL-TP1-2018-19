@@ -11,6 +11,7 @@
 		<div class="haut"></div>
 		<p style="text-align: center;"><img src="logo_amu_rvb" style="width: 650px;height: 220px;"></p>
 		<div class="login4" style="margin-top: 3%; text-align: center;" >
+			<!-- Formulaire permettant de choisir quelle option on veut supprimer -->
     		<form name="DeleteOption" enctype="multipart/form-data" action="DeleteOptioni.php" method="post">
     		<p style="font-size: 20px;">Veuillez entrer le numéro de l'option à supprimer</p><br>
 		        <input type="number" style="width: 15%;" id="numOption" step="1" value="0" min="0" name="numOption" required/>
@@ -19,6 +20,7 @@
     		</form>
     		<br>
     		<br>
+    		<!-- Formulaire permettant de supprimer l'ensemble des options et donc l'ensemble des tables de la BD -->
 		    <form name="DeleteAll" enctype="multipart/form-data" action="DeleteAll.php" method="post">
 		        <input class="envoyerd" type="submit" name="submit" value ="Supprimer l'intégralité des options">
 		    </form>

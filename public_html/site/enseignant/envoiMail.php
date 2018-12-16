@@ -9,6 +9,7 @@ foreach ($_POST as $key => $value) {
 	}
 	//i++;
 }
+// Creation d'un script en JS qui permet d'envoyer les mails d'affectations a tous les etudiants present dans la BD
 echo '<body>';
 echo '<button onclick="envoiMail()">Valider envoi</button>';
 echo '<script src="https://smtpjs.com/v2/smtp.js">';

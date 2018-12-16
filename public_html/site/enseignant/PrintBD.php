@@ -1,3 +1,6 @@
+<!-- Ce fichier permettait de suivre l'evotulion de la BD de facon plus efficace (pas besoin d'aller sur phpmyadmin) 
+neanmoins cette version des BD n'est plus fonctionnelle -->
+
 <?php
 
 $servername = "$_SERVER[dbHost]";

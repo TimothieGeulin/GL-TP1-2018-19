@@ -12,7 +12,7 @@
         echo "Connection etablie<br />";
 
     $numOpt = $_POST['numOption'];
-
+    // 2 requetes SQL permettant de supprimer les BDetu et DataOption de l'entier transmis via le Form de DeleteOption.php
     $sql1 = "DROP TABLE ".$username.".DataOptions".$numOpt;
     $sql2 = "DROP TABLE ".$username.".BDetu".$numOpt;
     if (mysqli_query($conn, $sql1)) {

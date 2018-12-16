@@ -21,9 +21,11 @@
 		- Mail de l'etudiant <br>
 		- La première ligne de chaque colonnes devra avoir un titre (Exemple : "nom" pour la colonne comprennant les noms)<br>
 		3. Les étudiants redoublants ayant déjà validé une ou plusieurs options ne doivent pas être present dans le fichier .csv<br></p>
+		<!-- permet de telecharger un exemple de CSV valide -->
 		<a href="ExempleCSV.csv">Telecharger un exemple</a>
 	<br>
 	</p>
+	<!-- Fomulaire permettant d'importer le CSV contenant toutes les informations des etudiants -->
 	<form name="ImportCSV" enctype="multipart/form-data" action="updateBDCSV.php" method="post">
 		<input style="margin-top: 2%;" type="file" name="csvfile" required="required" accept=".csv"/><br>
 		<input class="envoyer" type="submit"/>

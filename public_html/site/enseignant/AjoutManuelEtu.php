@@ -1,4 +1,4 @@
-<!doctype html>
+ <!doctype html>
 <html>
 <head>
   <link rel="stylesheet" href="style.css">
@@ -12,6 +12,7 @@
     	<div class="haut"></div>
 		<p style="text-align: center;"><img src="logo_amu_rvb" style="width: 650px;height: 220px;"></p>
 		<div class="login3" style="text-align: center; margin-top: 2%;"> 
+			<!-- Un simple formulaire dans le quel on renseigne des information concernant l'etudiant qu'on est en train d'ajouter (nom,prenom,id...) -->
 			<form name="ajoutEtu" enctype="multipart/form-data" action="actualiserBD.php" method="post">
 				<p style="font-size: 20px;">Nom de famille</p>
 				<input style="font-size: 20px;" onFocus="javascript:this.value=''" type="text" name="nom" value="Dupont"><br>

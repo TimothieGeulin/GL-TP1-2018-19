@@ -9,6 +9,8 @@ foreach ($_POST as $key => $value) {
 	}
 	//i++;
 }
+
+// Creation d'un script en JS qui permet d'envoyer les mails d'affectations a la scolarité (dont le mail a été entré dans la page Resultat/EnvoiAffectScol.php)
 echo '<body>';
 echo '<button onclick="envoiMail()">Valider envoi</button>';
 echo '<script src="https://smtpjs.com/v2/smtp.js">';

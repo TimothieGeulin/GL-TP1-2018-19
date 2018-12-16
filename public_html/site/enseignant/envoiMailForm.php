@@ -9,6 +9,8 @@ foreach ($_POST as $key => $value) {
 	}
 	//i++;
 }
+
+// Creation d'un script en JS qui permet d'envoyer le lien du site a tous les etudiants present dans la BD pour qu'il aient acces au formulaire
 echo '<body>';
 echo '<button onclick="envoiMail()">Valider envoi</button>';
 echo '<script src="https://smtpjs.com/v2/smtp.js">';

@@ -1,3 +1,6 @@
+<!-- Creation des BD des options et des etudiants grace aux informations recupérées dans la page CreateForm1.php 
+Toutes les BD sont crées grace a des requetes SQL appelées avec mysqli -->
+
 <?php
 
 $servername = "$_SERVER[dbHost]";
